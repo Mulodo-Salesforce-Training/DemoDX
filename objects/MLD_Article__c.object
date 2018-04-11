@@ -53,6 +53,19 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>MLD Article</label>
+    <nameField>
+        <displayFormat>A-{0000}</displayFormat>
+        <label>Article Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Articles</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Article_Title__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MLD_Category__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Article_Title__c</fullName>
         <externalId>false</externalId>
@@ -85,7 +98,6 @@
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
-    <label>MLD Article</label>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
@@ -94,16 +106,4 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
-    <nameField>
-        <displayFormat>A-{0000}</displayFormat>
-        <label>Article Number</label>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Articles</pluralLabel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Article_Title__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>MLD_Category__c</customTabListAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>

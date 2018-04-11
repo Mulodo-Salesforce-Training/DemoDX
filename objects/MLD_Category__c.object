@@ -53,6 +53,23 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <label>MLD Category</label>
+    <nameField>
+        <displayFormat>Cate-{0000}</displayFormat>
+        <label>Category Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Categories</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Category_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Total_Articles__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Category_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Total_Articles__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Category_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total_Articles__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Category_Name__c</fullName>
         <externalId>false</externalId>
@@ -72,7 +89,6 @@
         <trackTrending>false</trackTrending>
         <type>Summary</type>
     </fields>
-    <label>MLD Category</label>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
@@ -81,20 +97,4 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
-    <nameField>
-        <displayFormat>Cate-{0000}</displayFormat>
-        <label>Category Number</label>
-        <type>AutoNumber</type>
-    </nameField>
-    <pluralLabel>Categories</pluralLabel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Category_Name__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Total_Articles__c</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Category_Name__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Total_Articles__c</lookupDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Category_Name__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Total_Articles__c</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>

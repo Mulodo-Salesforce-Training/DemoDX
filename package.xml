@@ -1,43 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>DemoDX</fullName>
-    <description>Unmanaged package for demo Salesforce DX</description>
-    <types>
-        <members>Mulodo_eBooks</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>Mulodo_eBooks</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>MLD_Article__c.Article_Title__c</members>
-        <members>MLD_Article__c.Content__c</members>
-        <members>MLD_Article__c.MLD_Category__c</members>
-        <members>MLD_Category__c.Category_Name__c</members>
-        <members>MLD_Category__c.Total_Articles__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>MLD_Article__c</members>
-        <members>MLD_Category__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>MLD_Article__c</members>
-        <members>MLD_Category__c</members>
-        <members>Mulodo_eBooks</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>MLD_Article__c-Article Layout</members>
-        <members>MLD_Category__c-Category Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>MLD_Article__c.All</members>
-        <members>MLD_Category__c.All</members>
-        <name>ListView</name>
-    </types>
-    <version>42.0</version>
+  <types>
+    <name>CustomApplication</name>
+    <members>Mulodo_eBooks</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>MLD_Article__c-Article Layout</members>
+    <members>MLD_Category__c-Category Layout</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>MLD_Article__c</members>
+    <members>MLD_Category__c</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>MLD_Article__c.Article_Title__c</members>
+    <members>MLD_Article__c.Content__c</members>
+    <members>MLD_Article__c.MLD_Category__c</members>
+    <members>MLD_Category__c.Category_Name__c</members>
+    <members>MLD_Category__c.Total_Articles__c</members>
+  </types>
+  <types>
+    <name>ListView</name>
+    <members>MLD_Article__c.All</members>
+    <members>MLD_Category__c.All</members>
+  </types>
+  <types>
+    <name>ApexPage</name>
+    <members>Mulodo_eBooks</members>
+  </types>
+  <types>
+    <name>Profile</name>
+    <members>Admin</members>
+    <members>Custom%3A Marketing Profile</members>
+    <members>Custom%3A Sales Profile</members>
+    <members>Custom%3A Support Profile</members>
+  </types>
+  <types>
+    <name>CustomTab</name>
+    <members>MLD_Article__c</members>
+    <members>MLD_Category__c</members>
+    <members>Mulodo_eBooks</members>
+  </types>
+  <version>42.0</version>
 </Package>
