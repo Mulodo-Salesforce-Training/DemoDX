@@ -1,8 +1,17 @@
 # Description
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+Fixes # (issue):
 
-Fixes # (issue)
+Please include a summary such as samples below:
+
+- [ ] Issue about logging function (Refer: [link])
+- [ ] Issue about delete account function (Refer: [link])
+
+Develop new feature:
+
+Please include a summary such as developing registering account module.
+Specification: [link]
+
 
 ## Type of change
 
@@ -20,3 +29,5 @@ Fixes # (issue)
 
 - [ ] Filename 1
 - [ ] Filename 2
+
+List any dependencies that are required for this change.
